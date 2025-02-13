@@ -3,7 +3,5 @@ numpy
 opencv-python
 requests
 gunicorn
-pickle
 deepface
 firebase_admin
-base64
