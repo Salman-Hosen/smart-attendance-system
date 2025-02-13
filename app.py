@@ -48,7 +48,7 @@ def upload_image():
             object_detected = False
             print("❌ No object detected.")
 
-        return jsonify({"message": "Image received successfully"}), 200
+        return jsonify({"message": "Image received successfully","Detection":object_detected}), 200
 
     except Exception as e:
         return jsonify({"error": str(e)}), 500
