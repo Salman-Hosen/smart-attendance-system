@@ -6,4 +6,3 @@ gunicorn
 deepface
 firebase_admin
 tf-keras  
-retinaface
